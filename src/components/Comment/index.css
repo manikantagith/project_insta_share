@@ -1,0 +1,13 @@
+p {
+  color: black;
+  font-weight: normal;
+  font-style: italic;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.username-heading {
+  font-weight: bold !important;
+  flex-wrap: nowrap;
+  width: fit-content;
+}

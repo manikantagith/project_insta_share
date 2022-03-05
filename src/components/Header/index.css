@@ -1,0 +1,179 @@
+.header-container {
+  list-style-type: none;
+  height: 64px;
+  text-decoration: none !important;
+  font-size: 10px;
+  background: #ffffff;
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 59px;
+  height: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.search-button {
+  width: 34px;
+  height: 26px;
+
+  background: beige;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.font-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 10px;
+  /* identical to box height, or 120% */
+
+  color: #262626;
+  text-decoration: none;
+}
+
+.search-container {
+  height: 28px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  width: fit-content;
+}
+::placeholder {
+  color: #4094ef;
+  font-size: medium;
+}
+.search-icon {
+  background: none;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  text-decoration: none;
+}
+
+.home {
+  width: 41px;
+  height: 18px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #262626;
+  margin-right: 20px;
+  margin-top: 2px;
+  text-decoration: none !important;
+}
+.my-profile {
+  width: 41px;
+  margin-top: 2px;
+  height: 18px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #262626;
+  margin-right: 20px;
+  text-decoration: none !important;
+}
+.logout-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding: 5px;
+
+  background: #4094ef;
+  border-radius: 4px;
+}
+
+.btn-logout {
+  width: 38px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+}
+button.checkout:hover {
+  background-color: green;
+}
+.mobile-view {
+  display: none;
+}
+.span {
+  color: #ffffff;
+}
+.three-bar {
+  height: fit-content;
+}
+@media screen and (max-width: 768px) {
+  .mobile-view {
+    display: block;
+  }
+  .header-container {
+    display: none;
+  }
+  .logo-icon {
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .share {
+    padding-left: 30px !important;
+  }
+  .navbar-three {
+    height: fit-content;
+    width: fit-content;
+  }
+  .font-heading {
+    color: white;
+  }
+  .logout-button {
+    width: fit-content;
+  }
+  .search-container {
+    margin-bottom: 20px;
+  }
+}

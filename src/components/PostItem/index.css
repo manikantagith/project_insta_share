@@ -1,0 +1,129 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.profile-pic-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 1px solid red;
+  padding: 2px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.user-nav-redirect {
+  text-decoration: none !important;
+  display: flex;
+}
+.profile-name-container {
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 4px 4px 0px 0px;
+  width: 80vw;
+  margin-left: 10%;
+}
+.profile-name {
+  padding-left: 10px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+.post-container {
+  width: 100%;
+}
+.posted-image {
+  width: 80vw;
+  height: 614px;
+  margin-left: 10%;
+}
+.like-button {
+  border: 0px solid red;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  height: 19.39px;
+}
+
+.likes-count-para {
+  width: 68px;
+  height: 18px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #262626;
+}
+.bottom-container {
+  width: 80vw;
+
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 0px 0px 4px 4px;
+  margin-left: 10%;
+  padding-bottom: 5 px;
+  padding-left: 20px;
+}
+.created-time {
+  /* 1 Hour Ago */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  display: flex;
+  align-items: center;
+
+  color: #989898;
+}
+@media screen and (max-width: 768px) {
+  .posted-image {
+    width: 123%;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .profile-name-container {
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px 4px 0px 0px;
+    width: 123%;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .bottom-container {
+    width: 123%;
+    margin-left: 0px;
+    padding-left: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .post-container {
+    width: 123%;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+}
